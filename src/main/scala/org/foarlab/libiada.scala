@@ -21,25 +21,23 @@ package object libiada {
     def order:List[(Int, Int)] = {
       l.map({case (pos: Int, value) => (pos, l.alphabet.indexOf(value))})
     }
+
+    def distribution: List[(A, Int)] = {
+      l.alphabet.map((value) => {(value, l.count(_._2 == value))}).toList
+    }
+
+    def frequency: List[(A, Double)] = {
+      val distribution = l.distribution
+      distribution.map({case (item, count: Int) => (item, count / distribution.map(_._2).sum.toDouble)})
+    }
+
+
+    def intervalsSequence(link: (List[(Int, A)]) => List[(Int, Int)]): List[(Int, Int)] = {
+      link(l)
+    }
   }
 
   implicit class Order(val l: List[(Int, Int)]) {
 
-    def intervalsSequence(link: (List[(Int, Int)]) => ((Int, Int)) => (Int, Int)): List[(Int, Int)] = {
-      l.map(link(l))
-    }
-  }
-
-  implicit class Distriution(val l: List[(Int, Int)]) {
-
-    def distribution: List[(Int, Int)] = {
-      l.alphabet.map((value: Int) => {(value, l.count(_._2 == value))})
-        .toSeq.sortWith(_._1 < _._1).toList
-    }
-
-    def frequency: List[(Int, Double)] = {
-      l.distribution.map({case (item: Int, count: Int) => (item, count / l.map(_._2).sum.toDouble)})
-    }
   }
 }
-

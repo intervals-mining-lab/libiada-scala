@@ -4,7 +4,7 @@
 		module="fun$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20150925121726"
+		publication="20150928130904"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

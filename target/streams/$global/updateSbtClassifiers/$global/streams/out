@@ -611,9 +611,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.5!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
-[debug] :: resolution report :: resolve 255ms :: artifacts dl 9ms
+[debug] :: resolution report :: resolve 305ms :: artifacts dl 13ms
 [debug] 	report for fun#fun$sbt_2.10;1.0 default produced in /home/goruha/projects/fun/orlov/target/resolution-cache/reports/fun-fun$sbt_2.10-default.xml
-[debug] 	resolve done (255ms resolve - 9ms download)
+[debug] 	resolve done (305ms resolve - 13ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: fun#fun$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -955,6 +955,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.5!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.5!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.5!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 59ms :: artifacts dl 8ms
+[debug] :: resolution report :: resolve 80ms :: artifacts dl 7ms
 [debug] 	report for fun#fun$sources_2.10;1.0 default produced in /home/goruha/projects/fun/orlov/target/resolution-cache/reports/fun-fun$sources_2.10-default.xml
-[debug] 	resolve done (59ms resolve - 8ms download)
+[debug] 	resolve done (80ms resolve - 7ms download)

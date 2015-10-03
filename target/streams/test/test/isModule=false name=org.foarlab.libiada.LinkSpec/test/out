@@ -1,10 +1,12 @@
 [0m[[0minfo[0m] [0m[32mLinkSpec:[0m[0m
 [0m[[0minfo[0m] [0m[32mLink[0m[0m
 [0m[[0minfo[0m] [0m[32m  End[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should have 1 for neighbor elements (9 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[31m  - should have 2 for elements *** FAILED *** (3 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[31m    Expected 2, but got 1 (LinkSpec.scala:20)[0m[0m
-[0m[[0minfo[0m] [0m[31m  - should have 1 for last A element *** FAILED *** (0 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[31m    Expected 1, but got 3 (LinkSpec.scala:25)[0m[0m
-[0m[[0minfo[0m] [0m[31m  - should have 2 for last B element *** FAILED *** (1 millisecond)[0m[0m
-[0m[[0minfo[0m] [0m[31m    Expected 1, but got 2 (LinkSpec.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 1 for neighbor elements (15 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 2 for elements (2 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 1 for last 1 element (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 2 for last 2 element (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  Start[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 1 for neighbor elements (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 2 for elements (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 1 for last 1 element (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should have 2 for last 2 element (0 milliseconds)[0m[0m
