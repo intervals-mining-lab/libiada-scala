@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mDistributionSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mDistribution[0m[0m
+[0m[[0minfo[0m] [0m[32m  order[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should distinct values (16 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should be sorted by default (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  sequence[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should distinct values (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should be sorted by default (0 milliseconds)[0m[0m
