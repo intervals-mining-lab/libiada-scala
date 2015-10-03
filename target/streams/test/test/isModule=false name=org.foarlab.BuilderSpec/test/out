@@ -1,6 +1,0 @@
-[0m[[0minfo[0m] [0m[32mBuilderSpec:[0m[0m
-[0m[[0minfo[0m] [0m[32mBuilder[0m[0m
-[0m[[0minfo[0m] [0m[32m- should convert any list[A] to List[(Int, A)] (14 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[32m  order[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should return order (0 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should order (0 milliseconds)[0m[0m

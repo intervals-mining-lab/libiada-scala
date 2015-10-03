@@ -1,8 +1,0 @@
-[0m[[0minfo[0m] [0m[32mSequenceSpec:[0m[0m
-[0m[[0minfo[0m] [0m[32mSequence[0m[0m
-[0m[[0minfo[0m] [0m[32m  alphabet[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should distinct values (15 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should return values in order it appears in list (0 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[32m  order[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should return order (0 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[32m  - should order (1 millisecond)[0m[0m
