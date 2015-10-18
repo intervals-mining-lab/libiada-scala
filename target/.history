@@ -16,3 +16,6 @@ run --help
 ~ run --help --tool 
 tasks
 console
+on
+version
+exit

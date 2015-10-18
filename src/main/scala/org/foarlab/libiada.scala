@@ -7,8 +7,11 @@ package object libiada {
     def order: List[(Int, Int)] = build.order
 
     def build: List[(Int, A)] = {
-      l.zipWithIndex // make array as tuple (pos, word)
-        .map({ case (value, pos: Int) => (pos, value)})
+      var i = -1
+      l.map((value) => {
+        i +=1
+        (i, value)
+      })
     }
   }
 
